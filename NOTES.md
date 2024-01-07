@@ -18,6 +18,13 @@
     -pagrindinis plotis turi buti fiksuotas
     -stiliu(css) atskirti nuo html
 
+# HTML/CSS rasymo strategija
+
+    1. Israsyti kiek imanoma (isivaizduojama) HTML
+    2. Israsyti CSS selektoriu (selector)
+    3. Pradedant nuo labaiausiai tevinio (is virsaus) selektoriaus, surasome reikiamus stilius
+    4. REPEAT - go to step 1
+
 # Pasiskaitymui
 
 apie cia naudojama rasymo sintakse (md - markdown)

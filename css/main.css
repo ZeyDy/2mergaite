@@ -6,8 +6,62 @@ header {
     width: 800px;
     margin-left: calc(50% - 400px);
 }
+header > img {
+    display: inline-block;
+    height: 50px;
+    float: left;
+    margin-left: 30px;
+}
+nav {
+    display: inline-block;
+    float: right;
+    margin-top: 8px;
+}
+a {
+    display: inline-block;
+    float: left;
+    line-height: 20px;
+    font-size: 18px;
+    color: #9f9f9f;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 17px;
+}
+a:last-child {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    border-color: #9f9f9f;
+    text-transform: uppercase;
+}
 main {
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
+}
+div {
+    display: inline-block;
+    width: 36%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    margin-top: 50px;
+
+}
+p {
+    margin: 0;
+    padding-top: 20px;
+}
+main > img {
+    width: 56%;
+    float: right;
+    margin-top: 50px;
 }
